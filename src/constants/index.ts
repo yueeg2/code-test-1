@@ -1,0 +1,1 @@
+export { bunnyPositions } from './imgPosition'
