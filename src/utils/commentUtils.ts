@@ -1,4 +1,4 @@
-import { ThreadOfComment } from "../constants/comments";
+import { ThreadOfComment } from "models/comments";
 import getUsername from "../constants/users";
 
 export const getComments = async ():Promise<ThreadOfComment[]> => {
