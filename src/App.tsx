@@ -56,7 +56,14 @@ function App() {
               {React.useMemo(() => <span>altKey: {altKey ? 'True' : 'False'}</span>, [altKey])}
             </div>
             <h3>"Comments"</h3>
-            <p><span style={{ textDecoration: 'underline' }}>alt+ClickHold</span> to pad around bunny</p>
+            <p>
+              Hold <span style={{ textDecoration: 'underline' }}>
+                alt(⌥)</span> to pad around bunny
+            </p>
+            <p>
+              Release <span style={{ textDecoration: 'underline' }}>
+                alt(⌥)</span> to add comment
+            </p>
           </section>
         </header>
         <AlertDialog dialog={dialog} setDialog={setDialog} />

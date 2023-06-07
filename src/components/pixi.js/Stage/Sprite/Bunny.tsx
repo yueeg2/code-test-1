@@ -88,7 +88,7 @@ function createBunny({ x, y }: CoordinateProps, {
   bunny.anchor.set(0.5);
 
   // make it a bit bigger, so it's easier to grab
-  bunny.scale.set(3);
+  bunny.scale.set(4);
   //commentS.scale.set(0.2);
 
   // setup events for mouse + touch using

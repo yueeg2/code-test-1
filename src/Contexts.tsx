@@ -10,11 +10,13 @@ export type DialogProps = {
   setDialog?: React.Dispatch<React.SetStateAction<dialogProp>>
 }
 
-export const DialogContext = React.createContext<DialogProps>({
+interface CanvaContext extends DialogProps {}
+
+export const DialogContext = React.createContext<CanvaContext>({
   setDialog: undefined,
   dialog: {
     open: undefined,
     dragTargetName: undefined,
     currentUserId: ''
-  }
+  },
 });
